@@ -27,7 +27,7 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: hello-artifact
-        path: https://github.com/DhirendraJha786/github-actions-artifacts-hands-on/artifacts
+        path: ./artifacts
         
     - name: Read File
       run: cat ./artifacts/hello.txt
